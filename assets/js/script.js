@@ -166,8 +166,7 @@ ghosts.push(new Ghost({
         y: 0
     },
     color: 'pink'
-})
-)
+}))
 const powerUps = new Array()
 const pellets = new Array()
 const boundaries = new Array()
@@ -486,15 +485,16 @@ function animate() {
             if (ghost.scared) {
                 ghosts.splice(i, 1)
             } else {
-                cancelAnimationFrame(animationID)
-                alert('You lose')
+                window.alert('Ala, muito ruim kakaakkaka')
+                window.location.reload(true)
             }
         }
     }
+
     // Win condition
     if (pellets.length === 0) {
-        alert('You win')
-        cancelAnimationFrame(animationID)
+        alert('Pouha, o maluco é brabo')
+        window.open('../../extra.html')
     }
 
     // Power ups

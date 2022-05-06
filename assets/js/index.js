@@ -512,14 +512,13 @@ function animate() {
                 ghosts.splice(i, 1)
             } else {
                 cancelAnimationFrame(animationID)
-                alert('You lose')
+                alert('hahahahaha, caiu no conto do gasparzinho')
             }
         }
     }
     // Win condition
     if (pellets.length === 0) {
-        alert('You win')
-        cancelAnimationFrame(animationID)
+        alert('Tu ganhou tudo man, sai daqui')
     }
 
     // Power ups
