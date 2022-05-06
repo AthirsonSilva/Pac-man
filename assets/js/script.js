@@ -494,7 +494,7 @@ function animate() {
     // Win condition
     if (pellets.length === 0) {
         alert('Pouha, o maluco é brabo')
-        window.open('../../extra.html')
+        window.open('./extra.html')
     }
 
     // Power ups
