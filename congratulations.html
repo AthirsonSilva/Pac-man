@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+	<div>
+		<div class="fixed inset-0 flex items-center justify-center" id="modal">
+			<div id="gameRules" class="bg-white rounded-lg max-w-md w-full p-6 text-center">
+				<p class="text-gray-700 mb-4 text-lg font-extrabold">CONGRATULATIONS!</p>
+				<p class="text-gray-700 text-left ml-3">
+					Well done, you have completed the game! Now you can play again or go back to the main menu.
+				</p>
+				<br>
+				<div class="flex items-center justify-center">
+					<button onclick="window.open('./firstLevel.html', '_self')"
+						class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+						Level 1
+					</button>
+					<button onclick="window.open('./secondLevel.html', '_self')"
+						class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2">
+						Level 2
+					</button>
+				</div>
+			</div>
+		</div>
+</body>
+
+</html>
