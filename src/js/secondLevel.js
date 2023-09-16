@@ -259,7 +259,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/pipeHorizontal.png')
+					image: createImage('./src/img/pipeHorizontal.png')
 				}))
 				break
 			case '|':
@@ -268,7 +268,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/pipeVertical.png')
+					image: createImage('./src/img/pipeVertical.png')
 				}))
 				break
 			case '1':
@@ -277,7 +277,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/pipeCorner1.png')
+					image: createImage('./src/img/pipeCorner1.png')
 				}))
 				break
 			case '2':
@@ -286,7 +286,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/pipeCorner2.png')
+					image: createImage('./src/img/pipeCorner2.png')
 				}))
 				break
 			case '3':
@@ -295,7 +295,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/pipeCorner3.png')
+					image: createImage('./src/img/pipeCorner3.png')
 				}))
 				break
 			case '4':
@@ -304,7 +304,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/pipeCorner4.png')
+					image: createImage('./src/img/pipeCorner4.png')
 				}))
 				break
 			case 'b':
@@ -313,7 +313,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/block.png')
+					image: createImage('./src/img/block.png')
 				}))
 				break
 			case '[':
@@ -322,7 +322,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/capLeft.png')
+					image: createImage('./src/img/capLeft.png')
 				}))
 				break
 			case ']':
@@ -331,7 +331,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/capRight.png')
+					image: createImage('./src/img/capRight.png')
 				}))
 				break
 			case '5':
@@ -340,7 +340,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/pipeConnectorTop.png')
+					image: createImage('./src/img/pipeConnectorTop.png')
 				}))
 				break
 			case '7':
@@ -349,7 +349,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/pipeConnectorBottom.png')
+					image: createImage('./src/img/pipeConnectorBottom.png')
 				}))
 				break
 			case '^':
@@ -358,7 +358,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/capTop.png')
+					image: createImage('./src/img/capTop.png')
 				}))
 				break
 			case '+':
@@ -367,7 +367,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/pipeCross.png')
+					image: createImage('./src/img/pipeCross.png')
 				}))
 				break
 			case '_':
@@ -376,7 +376,7 @@ map.forEach((row, i) => {
 						x: Boundary.width * j,
 						y: Boundary.height * i
 					},
-					image: createImage('./assets/img/capBottom.png')
+					image: createImage('./src/img/capBottom.png')
 				}))
 				break
 			case '.':
